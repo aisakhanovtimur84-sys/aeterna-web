@@ -1,4 +1,5 @@
 import FileUploader from "../components/FileUploader";
+import CapsuleItemList from "../components/CapsuleItemList";
 
 export default function Create() {
 
@@ -10,6 +11,8 @@ export default function Create() {
       <p>Add files to your capsule.</p>
 
       <FileUploader />
+
+      <CapsuleItemList />
 
     </div>
   );
